@@ -1,0 +1,59 @@
+
+.logo{
+    position: fixed;
+    left: 53%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.star1{
+    position: fixed;
+    left: 25%;
+    top: 59%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    transform: translate(-50%, -50%);
+
+}
+
+.star2{
+    position: fixed;
+    left: 29%;
+    top: 59%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    
+}
+
+.star3{
+    position: fixed;
+    left: 34%;
+    top: 59%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    transform: translate(-50%, -50%);
+  
+}
+
+.star4{
+    position: fixed;
+    left: 39.2%;
+    top: 59%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    
+}
+
+.star5{
+    position: fixed;
+    left: 45%;
+    top: 59%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    transform: translate(-50%, -50%);
+
+}
+

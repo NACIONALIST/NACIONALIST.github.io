@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'FarCry';
+    src: url('FarCry.eot');
+    src: local('FarCry Regular'), local('FarCry'),
+        url('FarCry.eot?#iefix') format('embedded-opentype'),
+        url('FarCry.woff2') format('woff2'),
+        url('FarCry.woff') format('woff'),
+        url('FarCry.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+

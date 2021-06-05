@@ -1,0 +1,66 @@
+.about{
+    font-size: 25px;
+    top: 200px;
+    left: 0px;
+    padding: 15px 20px 15px 40px;
+    margin-bottom: 10px;
+    color: #000000;
+    cursor: pointer;
+    position: relative;
+    vertical-align: middle;
+    font-weight: 700;
+
+}
+
+.font1 {
+    position: absolute;
+    top: 90%;
+    left: 0;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    overflow: hidden;
+}
+.font1:hover {
+    color: rgba(255,215,0 ,1 );
+}
+
+.font1 span:nth-child(1) {
+    top: -100%;
+    left: -100%;
+}
+.font1:hover span:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+.font1 span:nth-child(2) {
+    bottom: -100%;
+    left: -100%;
+}
+.font1:hover span:nth-child(2) {
+    bottom: 0;
+    left: 0;
+}
+.font1 span:nth-child(3) {
+    top: -100%;
+    right: -100%;
+}
+.font1:hover span:nth-child(3) {
+    top: 0;
+    right: 0;
+}
+.font1 span:nth-child(4) {
+    bottom: -100%;
+    right: -100%;
+}
+.font1:hover span:nth-child(4) {
+    bottom: 0;
+    right: 0;
+}

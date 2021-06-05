@@ -1,0 +1,105 @@
+
+.menu {
+  z-index: 999;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.menu .share i.fa {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.menu .share:hover.left .submenu li:nth-child(1) {
+  opacity: 1;
+  left: -51px;
+  transform: rotate(0deg);
+  transition-delay: 0.5s;
+  border-right: 1px dashed #000000;
+}
+.menu .share:hover.left .submenu li:nth-child(2) {
+  opacity: 1;
+  left: -102px;
+  transform: rotate(0deg);
+  transition-delay: 1s;
+  border-right: 1px dashed #000000;
+}
+.menu .share:hover.left .submenu li:nth-child(3) {
+  opacity: 1;
+  left: -153px;
+  transform: rotate(0deg);
+  transition-delay: 1.5s;
+  border-right: 1px dashed #000000;
+}
+.menu .share:hover.left .submenu li:nth-child(4) {
+  opacity: 1;
+  left: -204px;
+  transform: rotate(0deg);
+  transition-delay: 2s;
+  border-right: 1px dashed #000000;
+}
+.menu .share:hover.left .submenu li:nth-child(5) {
+  opacity: 1;
+  left: -255px;
+  transform: rotate(0deg);
+  transition-delay: 2.5s;
+  border-right: 1px dashed #000000;
+}
+.menu .submenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.menu .submenu li {
+  transition: all ease-in-out 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+}
+.menu .submenu li a {
+  color: #000000;
+}
+.menu .submenu li a:hover i.fa {
+  color: #fff;
+  
+}
+.menu .submenu li a:hover.facebook i.fa {
+  background-color: #3b5999;
+}
+.menu .submenu li a:hover.twitter i.fa {
+  background-color: #55acee;
+}
+.menu .submenu li a:hover.googlePlus i.fa {
+  background-color: #dd4b39;
+}
+.menu .submenu li a:hover.instagram i.fa {
+  background-color: #e4405f;
+}
+.menu .submenu li:nth-child(1) {
+  transform: rotateX(45deg);
+}
+.menu .submenu li:nth-child(2) {
+  transform: rotateX(90deg);
+}
+.menu .submenu li:nth-child(3) {
+  transform: rotateX(135deg);
+}
+.menu .submenu li:nth-child(4) {
+  transform: rotateX(180deg);
+}
+
+.menu.topRight {
+  top: 10px;
+  right: 10px;
+}
+
+#gg{
+  top: 820px;
+}
