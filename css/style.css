@@ -18,8 +18,11 @@ visibility: visible;
 }
 
 .wrapper{
-   width: 80%;
-   max-width: 720px;
+   
+    width: 96%;    
+    max-width: 920px;
+    margin: auto;
+    padding: 2%;
 }
 
 .loader{
