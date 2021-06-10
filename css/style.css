@@ -3,3 +3,10 @@
     background-size: cover;
     z-index: 1;
     }
+
+
+.bg2{
+    background: url(media/bgbl11.jpg) no-repeat center center fixed;
+    background-size: cover;
+    z-index: 1;
+    }
