@@ -48,7 +48,7 @@ visibility: visible;
 
 }
 
-.bg{
+.bg1{
         background: url(media/bg2.jpg) no-repeat center center fixed;
         background-size: cover;
         z-index: 1;

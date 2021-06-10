@@ -64,3 +64,9 @@
     bottom: 0;
     right: 0;
 }
+
+.bg3{
+    background: url(media/bgbl3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    z-index: 1;
+  }
