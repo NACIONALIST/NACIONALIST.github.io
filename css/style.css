@@ -56,5 +56,5 @@ visibility: visible;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin: 0%;
+    padding: 0%;
 }
